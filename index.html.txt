@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <!-- Basic -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- SEO -->
+  <title>Your Name – Full-Stack Developer</title>
+  <meta name="description" content="Portfolio of Your Name – Full-stack developer specialising in React, Node.js and cloud architecture.">
+  <meta name="keywords" content="web developer,react developer,node.js,aws,typescript">
+  <meta name="author" content="Your Name">
+
+  <!-- Open Graph / Social -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Your Name – Full-Stack Developer">
+  <meta property="og:description" content="Portfolio of Your Name – Full-stack developer specialising in React, Node.js and cloud architecture.">
+  <meta property="og:image" content="https://yourdomain.com/og-image.jpg">
+  <meta property="og:url" content="https://yourdomain.com">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Your Name – Full-Stack Developer">
+  <meta name="twitter:description" content="Portfolio of Your Name – Full-stack developer specialising in React, Node.js and cloud architecture.">
+  <meta name="twitter:image" content="https://yourdomain.com/og-image.jpg">
+
+  <!-- Favicons -->
+  <link rel="icon" href="favicon.ico">
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+
+  <!-- Preload critical font (optional) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Structured data (JSON-LD) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Your Name",
+    "jobTitle": "Full-Stack Developer",
+    "url": "https://yourdomain.com",
+    "sameAs": [
+      "https://github.com/youruser",
+      "https://linkedin.com/in/youruser",
+      "https://twitter.com/youruser"
+    ]
+  }
+  </script>
+</head>
+
+<body>
+  <!-- Skip-to-content link for screen readers -->
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- HEADER -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="/">YourName</a>
+
+      <!-- Primary nav -->
+      <nav aria-label="Primary">
+        <ul class="nav-list">
+          <li><a href="#about">About</a></li>
+          <li><a href="#work">Work</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Theme toggle -->
+      <button class="theme-toggle" aria-label="Toggle dark mode">
+        <span class="icon">🌙</span>
+      </button>
+    </div>
+  </header>
+
+  <!-- MAIN -->
+  <main id="main">
+    <!-- HERO -->
+    <section class="hero" id="top">
+      <div class="container hero__text">
+        <h1>Hi, I’m <strong>Your Name</strong>.</h1>
+        <p class="hero__subtitle">
+          Full-stack developer crafting scalable web apps with React, Node.js &amp; AWS.
+        </p>
+        <div class="hero__actions">
+          <a class="btn btn--primary" href="#work">See my work</a>
+          <a class="btn btn--ghost" href="/resume.pdf" target="_blank" rel="noopener">Résumé</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section">
+      <div class="container">
+        <h2 class="section__title">About Me</h2>
+        <div class="about__grid">
+          <div class="about__text">
+            <p>
+              I’ve been building for the web for <strong>5+ years</strong>, specialising in
+              TypeScript, React, Node.js and serverless architectures on AWS.
+              I care deeply about performance, accessibility and maintainability.
+            </p>
+            <p>
+              When I’m not coding you’ll find me contributing to open-source,
+              speaking at meetups, or experimenting with edge functions.
+            </p>
+
+            <!-- Skills list -->
+            <h3 class="about__skills-title">Technologies I use</h3>
+            <ul class="tag-list">
+              <li>TypeScript</li>
+              <li>React</li>
+              <li>Next.js</li>
+              <li>Node.js</li>
+              <li>GraphQL</li>
+              <li>AWS</li>
+              <li>Docker</li>
+              <li>Terraform</li>
+            </ul>
+          </div>
+
+          <figure class="about__figure">
+            <img src="assets/profile.jpg" alt="Your Name portrait" loading="lazy" width="400" height="400">
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- WORK / PROJECTS -->
+    <section id="work" class="section section--gray">
+      <div class="container">
+        <h2 class="section__title">Selected Work</h2>
+
+        <div class="projects">
+          <!-- Project 1 -->
+          <article class="project">
+            <div class="project__visual">
+              <img src="assets/project1.jpg" alt="Screenshot of Project 1" loading="lazy" width="700" height="440">
+            </div>
+            <div class="project__info">
+              <h3 class="project__title">E-Commerce Platform</h3>
+              <p class="project__desc">
+                Headless Shopify plus Next.js storefront with 40 % faster page loads
+                and a 25 % increase in conversion.
+              </p>
+              <ul class="tag-list tag-list--small">
+                <li>Next.js</li>
+                <li>TypeScript</li>
+                <li>Tailwind</li>
+                <li>GraphQL</li>
+              </ul>
+              <div class="project__links">
+                <a class="link--external" href="https://example.com" target="_blank" rel="noopener">Live Site</a>
+                <a class="link--external" href="https://github.com" target="_blank" rel="noopener">Case Study</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Duplicate for more projects -->
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section">
+      <div class="container contact__box">
+        <h2 class="section__title">Let’s build something together</h2>
+        <p class="contact__lead">
+          I’m currently available for freelance &amp; full-time opportunities.
+        </p>
+        <a class="btn btn--primary" href="mailto:hello@yourdomain.com">hello@yourdomain.com</a>
+
+        <ul class="social-list">
+          <li><a aria-label="GitHub" href="https://github.com/youruser" target="_blank" rel="noopener">GitHub</a></li>
+          <li><a aria-label="LinkedIn" href="https://linkedin.com/in/youruser" target="_blank" rel="noopener">LinkedIn</a></li>
+          <li><a aria-label="Twitter" href="https://twitter.com/youruser" target="_blank" rel="noopener">Twitter</a></li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <small>&copy; <span id="year"></span> Your Name. All rights reserved.</small>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="script.js"></script>
+</body>
+</html>
